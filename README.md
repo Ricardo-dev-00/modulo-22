@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portal de Viagens
 
-## Getting Started
+Um portal interativo de viagens desenvolvido com Next.js, apresentando destinos turísticos ao redor do mundo. Explore informações detalhadas sobre locais fascinantes, curiosidades, atrações e recomendações culinárias.
 
-First, run the development server:
+## � Preview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Página Inicial do Portal de Viagens](./imagens/home_viagens.png)
+
+## �🚀 Funcionalidades
+
+- **Página Inicial**: Apresentação do portal com destaques de destinos.
+- **Listagem de Destinos**: Visualização de todos os destinos disponíveis em cards responsivos.
+- **Páginas Detalhadas**: Informações completas sobre cada destino, incluindo:
+  - Curiosidades locais
+  - Locais para visitar
+  - Restaurantes recomendados
+- **Navegação Intuitiva**: Menu de navegação consistente em todas as páginas.
+- **Design Responsivo**: Interface otimizada para desktop e dispositivos móveis.
+- **Rotas Baseadas em Arquivos**: Estrutura organizada com rotas dinâmicas e estáticas.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Next.js 16.1.1**: Framework React para aplicações web.
+- **React 19.2.3**: Biblioteca para construção de interfaces.
+- **TypeScript**: Tipagem estática para maior robustez.
+- **Tailwind CSS 4**: Framework CSS para estilização rápida e responsiva.
+- **CSS Modules**: Estilização modular e scoped.
+
+## 📦 Instalação e Execução
+
+### Pré-requisitos
+
+- Node.js (versão 18 ou superior)
+- npm, yarn, pnpm ou bun
+
+### Passos para Execução
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/portal-viagens.git
+   cd portal-viagens
+   ```
+
+2. **Instale as dependências**:
+   ```bash
+   npm install
+   # ou
+   yarn install
+   # ou
+   pnpm install
+   ```
+
+3. **Execute o servidor de desenvolvimento**:
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   # ou
+   pnpm dev
+   ```
+
+4. **Acesse a aplicação**:
+   Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
+
+## 📁 Estrutura do Projeto
+
+```
+viagens/
+├── app/
+│   ├── components/
+│   │   ├── CardDestino.tsx
+│   │   ├── Layout.tsx
+│   │   └── ...
+│   ├── data/
+│   │   └── destinos.ts
+│   ├── destinos/
+│   │   ├── [id]/
+│   │   │   └── page.tsx
+│   │   ├── 1/page.tsx
+│   │   ├── 2/page.tsx
+│   │   └── ...
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+├── package.json
+├── tailwind.config.js
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Conceitos Aplicados
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Rotas Baseadas em Arquivos**: Estrutura de pastas define as rotas automaticamente.
+- **Rotas Dinâmicas**: Uso de `[id]` para páginas parametrizadas.
+- **Componentes Reutilizáveis**: Layout, cards e seções modulares.
+- **CSS Modules**: Estilização isolada e manutenível.
+- **TypeScript**: Tipagem forte para melhor desenvolvimento.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Destinos Disponíveis
 
-## Learn More
+Atualmente, o portal apresenta 9 destinos incríveis:
 
-To learn more about Next.js, take a look at the following resources:
+1. Paris, França
+2. Tóquio, Japão
+3. Rio de Janeiro, Brasil
+4. Nova York, EUA
+5. Machu Picchu, Peru
+6. Santorini, Grécia
+7. Dubai, Emirados Árabes Unidos
+8. Bali, Indonésia
+9. Toronto, Canadá
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contribuições são bem-vindas! Siga estes passos:
 
-## Deploy on Vercel
+1. Fork o projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 Licença
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 📞 Contato
+
+Para dúvidas ou sugestões, entre em contato:
+
+- Email: seu-email@example.com
+- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
+- GitHub: [Seu Usuário](https://github.com/seu-usuario)
+
+---
+
+Desenvolvido com ❤️ usando Next.js
