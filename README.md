@@ -124,14 +124,5 @@ Contribuições são bem-vindas! Siga estes passos:
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 📞 Contato
-
-Para dúvidas ou sugestões, entre em contato:
-
-- Email: seu-email@example.com
-- LinkedIn: [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- GitHub: [Seu Usuário](https://github.com/seu-usuario)
-
----
 
 Desenvolvido com ❤️ usando Next.js
