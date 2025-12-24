@@ -1,4 +1,5 @@
 import Layout from '../../components/Layout';
+import CarrosselDestinos from '../../components/CarrosselDestinos';
 import { destinos } from '../../data/destinos';
 import styles from '../[id]/destino.module.css';
 
@@ -44,6 +45,7 @@ export default function Destino9() {
           </ul>
         </section>
       </div>
+      <CarrosselDestinos />
     </Layout>
   );
 }
